@@ -5,8 +5,8 @@ ros2 setup training self exercise
 ## Tags changes
 
 ### v1.0.0
-should be good for tutorial `configuring environment`
-and `using turtlesim and rqt` until install lines : 
+Should be good for tutorial `configuring environment`
+And `using turtlesim and rqt` until install lines : 
 ```
 sudo apt update
 
@@ -14,21 +14,31 @@ sudo apt install ros-galactic-turtlesim
 ```
 
 ### v2.0.0
-added turtlesim and rqt installations 
+Added turtlesim and rqt installations 
 
-should be good to finish the tutorial `using turtlesim and rqt`
+Should be good to finish the tutorial `using turtlesim and rqt`
 
 ### v3.0.0
-added examples and interfaces to workspace in dockerfile . 
+Added examples and interfaces to workspace in dockerfile . 
 
-should be good for `using colcon to build packages` tutorial one-time. 
+Should be good for `using colcon to build packages` tutorial one-time. 
 
-for a more comfortable dev-environment check the next version.
+For a more comfortable dev-environment check the next version.
 
 
 ### v3.1.0
-changed to working workspace with better scripts and with example packages inside the src folder. 
+Changed to working workspace with better scripts and with example packages inside the src folder.
 
+This version has the same abilities as v3.0.0 but now the example packages are presented at the src folder just like packages you'll need to develop. 
+
+Moreover, volumes have been added to make developing in the workspace much more efficient - 
+
+
+`src`, `build` and `install` folders volumed to allow easy development and to save build time. 
+
+`docker_save` folder is a folder which helps to copy files from inside the docker outside to save outputs for later usage. 
+
+Also, scripts in the scripts folder are now more generic with the help of the initial script - `setup_host_env.sh` which exports environment variables to the usage of other scripts. 
 
 **Remember in every new shell to run**
 ```
