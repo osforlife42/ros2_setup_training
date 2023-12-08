@@ -18,3 +18,11 @@ added turtlesim and rqt installations
 
 should be good to finish the tutorial `using turtlesim and rqt`
 
+### v3.0.0
+added examples and interfaces to workspace in dockerfile . 
+
+should be good for `using colcon to build packages` tutorial one-time. 
+
+for a more comfortable dev-environment check the next version.
+
+
