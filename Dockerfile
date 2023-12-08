@@ -10,9 +10,6 @@ USER ros
 ARG WORKSPACE="/home/ros/dev_ws"
 WORKDIR ${WORKSPACE}
 
-RUN mkdir -p ${WORKSPACE}/src
-RUN git clone https://github.com/ros2/examples src/examples -b galactic 
-RUN git clone https://github.com/ros2/example_interfaces src/example_interfaces -b galactic 
 
 # colcon and colcon_cd completions
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
