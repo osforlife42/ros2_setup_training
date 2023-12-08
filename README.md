@@ -30,10 +30,7 @@ for a more comfortable dev-environment check the next version.
 changed to working workspace with better scripts and with example packages inside the src folder. 
 
 
-**Remember in every new shell to run
+**Remember in every new shell to run**
 ```
 source ./scripts/setup_host_env.sh
-```** 
-
-
-
+```
