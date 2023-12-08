@@ -2,9 +2,9 @@
 ros2 setup training self exercise
 
 ## Training Flow
-This training is largely based upon the ros2 official docs. If you were doing it on the internet the your instructors would be as happy as a bunny on sunday shiny morning. But because you're doing it on a remote network we've prepared you all the sources you need inside dockers in order to work seemlesly. 
+This training is largely based upon the ros2 official docs. If you were doing it on the internet, your instructors would be as happy as a bunny on a sunday shiny morning. But because you're doing it on a remote network we've prepared you all the sources you need inside dockers in order to work seemlesly. 
 
-At each stage you'll have a different project tag to work with - with new sources, new docker and new scripts which are meant to help with the official docs tutorials. The changes between each tag are small but help to understand the evolution of a development ros2 workspace, and give you the key elements of how to develop ros in docker easily. Take the time to see the changes between each tag (i.e. the changes in this project between the relevant changes) and understand how they help you in each stage. At the end of this README.md you'll also find a summary of these changes. 
+At each stage you'll have a different project tag to work with - with new sources, new docker and new scripts which are meant to help with the official docs tutorials. The slight variations in each tag offer insights into how a ROS2 development workspace evolves and provide key elements for easy ROS development in Docker. Take the time to see the changes between each tag and understand how they help you in each stage. At the end of this README.md you'll also find a summary of these changes. 
 
 ### Stage 1 - configuring, turtlesim and rqt
 Checkout to v2.0.0 tag and do the following tutorials in ros2 docs - 
