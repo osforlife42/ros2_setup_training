@@ -26,3 +26,9 @@ should be good for `using colcon to build packages` tutorial one-time.
 for a more comfortable dev-environment check the next version.
 
 
+### v3.1.0
+changed to working workspace with better scripts . 
+
+**Remember in every new shell to run `source ./scripts/setup_host_env.sh`** 
+
+
