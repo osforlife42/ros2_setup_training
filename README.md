@@ -44,3 +44,11 @@ Also, scripts in the scripts folder are now more generic with the help of the in
 ```
 source ./scripts/setup_host_env.sh
 ```
+
+Should be good for the tutorials: `using colcon to build packages`  and `creating a package`. 
+
+Skipping over `creating a workspace` as getting rosdep to work is not fun and not so much fascinating.
+
+
+### v3.2.0
+The final tutorial project after finishing the tutorial: `creating a package`. 
