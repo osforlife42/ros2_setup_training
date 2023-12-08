@@ -13,4 +13,8 @@ sudo apt update
 sudo apt install ros-galactic-turtlesim
 ```
 
+### v2.0.0
+added turtlesim and rqt installations 
+
+should be good to finish the tutorial `using turtlesim and rqt`
 
