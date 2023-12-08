@@ -1,8 +1,42 @@
 # ros2_setup_training
 ros2 setup training self exercise
 
+## Training Flow
+This training is largely based upon the ros2 official docs. If you were doing it on the internet the your instructors would be as happy as a bunny on sunday shiny morning. But because you're doing it on a remote network we've prepared you all the sources you need inside dockers in order to work seemlesly. 
 
-## Tags changes
+At each stage you'll have a different project tag to work with - with new sources, new docker and new scripts which are meant to help with the official docs tutorials. The changes between each tag are small but help to understand the evolution of a development ros2 workspace, and give you the key elements of how to develop ros in docker easily. Take the time to see the changes between each tag (i.e. the changes in this project between the relevant changes) and understand how they help you in each stage. At the end of this README.md you'll also find a summary of these changes. 
+
+### Stage 1 - configuring, turtlesim and rqt
+Checkout to v2.0.0 tag and do the following tutorials in ros2 docs - 
+
+https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html
+
+(skip ROS_DOMAIN_ID and ROS_LOCALHOST_ONLY sections - they're not interesting for now). 
+
+https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
+
+### Stage 2 - colcon build without "memory" 
+Checkout to v3.0.0 tag and do the following tutorials in ros2 docs - 
+
+https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
+
+### Stage 2 - colcon build with "memory" 
+Checkout to v3.1.0 tag and understand thoroughly the changes from v3.0.0 ! 
+
+Now repeat the last tutorial https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html - with this project. 
+
+
+### Stage 3 - creating development package
+In v3.1.0 tag do the following tutorials in ros2 docs -
+
+https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
+
+After finishing this tutorial your project should really be the same (or close enough) to v3.2.0 version. 
+
+That's it for now! you can use the project as a template (or the key elements from it) for your later projects and assignments in ros2 :) 
+
+
+## Tags Changes
 
 ### v1.0.0
 Should be good for tutorial `configuring environment`
