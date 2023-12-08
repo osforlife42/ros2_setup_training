@@ -2,10 +2,11 @@
 ros2 setup training self exercise
 
 
-## Tags according to their docs relevance 
+## Tags changes
 
 ### v1.0.0
-until the using turtlesim and rqt lines : 
+should be good for tutorial `configuring environment`
+and `using turtlesim and rqt` until install lines : 
 ```
 sudo apt update
 
