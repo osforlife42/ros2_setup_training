@@ -29,7 +29,7 @@ For a more comfortable dev-environment check the next version.
 ### v3.1.0
 Changed to working workspace with better scripts and with example packages inside the src folder.
 
-This version has the same abilities as v3.0.0 but now the example packages are presented at the src folder just like packages you'll need to develop. 
+This version has the same abilities as v3.0.0 but now the example packages are presented at the src folder just like packages you'll need to develop, and as explained in the tutorial: `creating a workspace` which we are going to skip. 
 
 Moreover, volumes have been added to make developing in the workspace much more efficient - 
 
@@ -47,7 +47,7 @@ source ./scripts/setup_host_env.sh
 
 Should be good for the tutorials: `using colcon to build packages`  and `creating a package`. 
 
-Skipping over `creating a workspace` as getting rosdep to work is not fun and not so much fascinating.
+Skipping over `creating a workspace` tutorial as getting rosdep to work is not fun and not so much fascinating.
 
 
 ### v3.2.0
