@@ -15,23 +15,33 @@ https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-E
 
 https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
 
+Use the scripts in the `scripts` folder, they are there to help you, and they will progress with this tutorial.
+
 ### Stage 2 - colcon build without "memory" 
 Checkout to v3.0.0 tag and do the following tutorials in ros2 docs - 
 
 https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
 
-### Stage 2 - colcon build with "memory" 
+**PAY ATTENTION**  - Inside the docker the `~/ros2ws` directory in the tutorial is `~/dev_ws`. This is a convention that in a docker you have only one workspace. Update the tutorial accordingly, and don't just copy and paste without thinking. Also, in the tutorial they have a bug and missed the example_interfaces package in the `src`, it's in this tag's docker, you're welcome :) 
+
+### Stage 3 - colcon build with "memory" 
+Now that worked, but everything is kind of closed inside the docker. You can't really develop and test every line of code while waiting each time for the docker to build. Let's create a happier workspace environment - 
+
 Checkout to v3.1.0 tag and understand thoroughly the changes from v3.0.0 ! 
 
 Now repeat the last tutorial https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html - with this project. 
 
+**Remember in every new shell to run**
+```
+source ./scripts/setup_host_env.sh
+```
 
-### Stage 3 - creating development package
+### Stage 4 - creating development package
 In v3.1.0 tag do the following tutorials in ros2 docs -
 
 https://docs.ros.org/en/galactic/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 
-After finishing this tutorial your project should really be the same (or close enough) to v3.2.0 version. 
+After finishing this tutorial your project should really be the same (or close enough) to v3.2.0 tag. 
 
 That's it for now! you can use the project as a template (or the key elements from it) for your later projects and assignments in ros2 :) 
 
